@@ -1,10 +1,14 @@
 {
-  "extension": "qext_template",
-  "mode": "compile",
-  "output": "./dist",
-  "compile": {
-    "entry": "./src/index.js",
-    "qext": "./src/index.qext",
-    "static": "./static"
-  }
+	"extension": "qext_template",
+	"mode": "compile",
+	"output": "./dist",
+	"compile": {
+		"entry": "./src/index.js",
+		"qext": "./src/index.qext",
+		"static": "./static"
+	},
+	"deploy": "desktop",
+	"desktopConfig": {
+		"destination": "C:\\Users\\%username%\\Documents\\Qlik\\Sense\\Extensions"
+	}
 }
