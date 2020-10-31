@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "qext-scripts": "1.0.0-beta.3"
+    "qext-scripts": "^1.0.0-beta.3"
   }
 }
